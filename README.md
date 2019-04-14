@@ -32,15 +32,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? An adaptive website can be made with having each screen size element set by PX. When it reaches that position it will change the layout. Adaptive in this situation would be done by % on top of set px sizes for only certain elements. This allows items to move on the screen instead of skrink.
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first. Mobile first would be viewing the site and building it with the size of a mobile device then you increase the screen size and you make the midea queries for it. With desktop first you start from the desktop sizes and work your way down.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? It will set the standard Px size for all the elements. most sights start at 100% giving you a standard of 16px but in this case, it would be 62.5% of that.
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS? We have a standard page of design called css, but there are other libraries or languages we can you such as less or sass. When useing these languages all together in diffrent files, you can use a compiler that will compile all of the styling together in a working css file for the browser to read. For less there are variables and mixins that get imported to a from these files to style the code and make it more readable and easier to code in general. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Mixins are my favorite becuase it allows you to reuse code many times over. They all give me a little troubble as I try and work out their placement.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
